@@ -1,7 +1,7 @@
-body{color: #353535;}
-a{color: #3c6e71;}
-body{background-color: #d9d9d9;}
-nav{background-color: #353535;}
+body {color: #353535;}
+a {color: #3c6e71;}
+body {background-color: #d9d9d9;}
+nav {background-color: #353535;}
 nav a {color: #3c6e71}
 nav a:hover {background-color: #ffffff;}
 nav {padding: 10px;}
