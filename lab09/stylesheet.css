@@ -24,7 +24,6 @@ nav {margin-bottom: 30px;}
 
 @media only screen and (max-width: 600px){
     span {display: none;}
-    nav a {padding: 7px;}
+    nav a {padding: 7px; max-width:100%; display: block;}
     }
-    @media only screen and (max-width: 600px) {nav a {max-width: 100%;}
-nav a{display: block;}
+    
