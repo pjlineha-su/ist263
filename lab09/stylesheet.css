@@ -1,10 +1,10 @@
 body {color:#353535; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
-body {margin-left: 100px; margin-right: 100px;}
+body {margin-left: 10%; margin-right: 10%;}
 a {color: #3c6e71;}
 body {background-color: #d9d9d9;}
 nav {background-color:white;}
 nav a {color: #3c6e71}
-nav a:hover {background-color: #ffffff;}
+nav a:hover {background-color: #353535;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
 .quote {float:right;}
@@ -22,8 +22,9 @@ nav {margin-bottom: 30px;}
 .address {padding: 10px;}
 .banner {max-width: 100%;}
 
-@media only screen and (max-width: 600px) {nav a {max-width: 100%;}
-@media only screen and (max-width: 600px) {body {margin-left: 20px; margin-right: 20px;}}
-@media only screen and (max-width: 600px) {span {display: none;}}
-@media only screen and (max-width: 600px) {nav a {padding: 7px;}}
+@media only screen and (max-width: 600px){
+    span {display: none;}
+    nav a {padding: 7px;}
+    }
+    @media only screen and (max-width: 600px) {nav a {max-width: 100%;}
 nav a{display: block;}
