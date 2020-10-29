@@ -8,6 +8,7 @@
         
     </head>
     <body>
+    <a id="skip-to-content" href="#content">Skip to Content</a>
     <nav><a href="index.html">Home</a> <span>|</span> <a href="skills.html">Skills</a> <span>|</span> <a href="contact.html">Contact</a></nav>   
     
     <h1>Contact</h1>
@@ -38,14 +39,17 @@
 
         What is your full name? <br>
         <label for="name"></label>
-        <input type="text" name="name" id="name"><br>
-        What is your reason for contacting Patrick? <br>
+        <input type="text" name="name" value="name" id="name"><br>
+        
+        <fieldset>
+        <legend>What is your reason for contacting Patrick?</legend><br>
         <input type="radio" id="interview" name="reason" value="interview">
         <label for="interview">Interview</label><br>
         <input type="radio" id="booking" name="reason" value="booking">
         <label for="booking">Booking</label><br>
         <input type="radio" id="other" name="reason" value="other">
         <label for="other">Other</label><br>
+        </fieldset>
 
         <label for="reason">Details</label> <br>
         <textarea id="reason" name=reason rows="5" cols="40">
