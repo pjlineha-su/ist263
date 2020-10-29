@@ -26,4 +26,13 @@ nav {margin-bottom: 30px;}
     span {display: none;}
     nav a {padding: 7px; max-width:100%; display: block;}
     }
-    
+
+    #skip-to-content {
+        position: absolute;
+        left: -999px;
+        background-color: white;
+        border: 1px #353535}
+    #skip-to-content:focus {
+        Position: absolute;
+        left: 10%
+    }
