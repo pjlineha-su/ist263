@@ -12,4 +12,4 @@ h2 {color: #19647eff;}
 article {background-color: white; padding: 2em; border-radius: 1em;}
 body header {float: center}
 .tangermedia {display: flex; flex-wrap: wrap;}
-img {padding: 1em;}
+img, iframe {margin-right: 20%; margin-left: 20%; padding: 1em;}
