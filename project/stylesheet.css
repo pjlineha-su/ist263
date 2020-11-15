@@ -23,19 +23,21 @@ iframe {padding: 1em}
 nav {background-color:#19647eff; color: #fafafaff; padding: 1em;}
 a {padding: 1em;}
 a:visited {color:#fafafaff;}
+footer a:visited {color: #221e22ff;}
+footer a{padding:0em}
 .clear {clear: both;}
 nav a:hover {background-color: #fe4a49ff}
 #rabatmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
 #casablancamedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
 #marrakechmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
-hr {padding: 1em; border-color: #19647eff;}
+hr {color: #19647eff;}
 .banner {display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     padding: 0em;
   }
-.invisible{visibility: hidden;}
+.invisible{visibility: hidden; padding: 1em;}
 #more {display: none;}
 #moretwo {display:none;}
 #morethree {display:none;}
@@ -60,4 +62,4 @@ button:hover{background:#fe4a49ff;}
     margin-left: auto;
     margin-right: auto;
     width: 80%;}
-
+footer {float: right;}
