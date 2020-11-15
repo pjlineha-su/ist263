@@ -2,7 +2,7 @@
 --cultured: #fafafaff;
 --blue-sapphire: #19647eff;
 --raisin-black: #221e22ff;
---tart-orange: #fe4a49ff;
+--tart-orange: #fe4a49ff; #A50104
 --mountbatten-pink: #8b728eff; */
 
 body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; background-color: rgb(221, 216, 216); color:#221e22ff; font-size: 1.5em; padding: 2em;}
@@ -21,13 +21,13 @@ body header {float: center}
 #tangermedia {display: flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
 img {padding: 1em;}
 iframe {padding: 1em}
-nav {background-color:#19647eff; color:white; padding: 1.5em;}
+nav {background-color:#19647eff; color:#fafafaff; padding: 1.5em;}
 a {padding: 1em;}
 a:visited {color:#fafafaff;}
 footer a:visited {color: #221e22ff;}
 footer a{padding:0em}
 .clear {clear: both;}
-nav a:hover {background-color: #fe4a49ff}
+nav a:hover {background-color: #A50104}
 #rabatmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
 #casablancamedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
 #marrakechmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
@@ -58,7 +58,7 @@ button{
     margin-right: 40%;
     border-radius: .3em;
   }
-button:hover{background:#fe4a49ff;}
+button:hover{background:#A50104;}
 .storymedia {display: block;
     margin-left: auto;
     margin-right: auto;
