@@ -5,11 +5,59 @@
 --tart-orange: #fe4a49ff;
 --mountbatten-pink: #8b728eff; */
 
-body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; background-color: rgb(221, 216, 216); color:#221e22ff;}
-p, h1, h2 {margin-left: 30%; margin-right: 30%;}
-h1 {color: #19647eff;}
-h2 {color: #19647eff;}
-article {background-color: white; padding: 2em; border-radius: 1em;}
+body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; background-color: rgb(221, 216, 216); color:#221e22ff; font-size: 1.5em; padding: 2em;}
+p, h1, h2, h3 {margin-left: 30%; margin-right: 30%;}
+h1 {color: #19647eff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 2em;}
+h2, h3 {color: #19647eff;}
+h3 {font-size: 1em;}
+.article {background-color: white; padding: 2em; border-radius: 1em; display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%}
+article p {margin-left: 15%; margin-right: 15%;}
+article h2 {margin-left: 15%; margin-right: 15%;}
 body header {float: center}
-.tangermedia {display: flex; flex-wrap: wrap;}
-img, iframe {margin-right: 20%; margin-left: 20%; padding: 1em;}
+#tangermedia {display: flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
+img {padding: 1em;}
+iframe {padding: 1em}
+nav {background-color:#19647eff; color: #fafafaff; padding: 1em;}
+a {padding: 1em;}
+a:visited {color:#fafafaff;}
+.clear {clear: both;}
+nav a:hover {background-color: #fe4a49ff}
+#rabatmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
+#casablancamedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
+#marrakechmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
+hr {padding: 1em; border-color: #19647eff;}
+.banner {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0em;
+  }
+.invisible{visibility: hidden;}
+#more {display: none;}
+#moretwo {display:none;}
+#morethree {display:none;}
+button{
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    cursor:pointer;
+    border:none;
+    padding:8px;
+    font-size:20px;
+    background:#221e22ff;
+    color:white;
+    box-sizing:border-box;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: .3em;
+  }
+button:hover{background:#fe4a49ff;}
+.storymedia {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;}
+
