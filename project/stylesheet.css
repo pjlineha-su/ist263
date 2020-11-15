@@ -21,13 +21,13 @@ body header {float: center}
 #tangermedia {display: flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
 img {padding: 1em;}
 iframe {padding: 1em}
-nav {background-color:#19647eff; color:#fafafaff; padding: 1.5em;}
+nav {background-color:#19647eff; color:#fafafaff; padding: 1.4em;}
 a {padding: 1em;}
 a:visited {color:#fafafaff;}
 footer a:visited {color: #221e22ff;}
 footer a{padding:0em}
 .clear {clear: both;}
-nav a:hover {background-color: #A50104}
+nav a:hover {background-color: #A50104; color:#fafafaff;}
 #rabatmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
 #casablancamedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
 #marrakechmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
