@@ -7,55 +7,55 @@
 
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <script>
+            function readmore() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("readmorebutton");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+    function readmoretwo() {
+      var dots = document.getElementById("dotstwo");
+      var moreText = document.getElementById("moretwo");
+      var btnText = document.getElementById("readmorebuttontwo");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+    function readmorethree() {
+      var dots = document.getElementById("dotsthree");
+      var moreText = document.getElementById("morethree");
+      var btnText = document.getElementById("readmorebuttonthree");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+        </script>
         
     </head>
-    <script>
-        function readmore() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("readmorebutton");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
-function readmoretwo() {
-  var dots = document.getElementById("dotstwo");
-  var moreText = document.getElementById("moretwo");
-  var btnText = document.getElementById("readmorebuttontwo");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
-function readmorethree() {
-  var dots = document.getElementById("dotsthree");
-  var moreText = document.getElementById("morethree");
-  var btnText = document.getElementById("readmorebuttonthree");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
-    </script>
 
     <body>
     <nav><a href="index.html">Home</a> <span>|</span> <a href="stories.html">Stories</a> <span>|</span> <a href="faq.html">FAQ</a></nav>
