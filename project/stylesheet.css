@@ -71,6 +71,9 @@ footer {float: right;}
   body {padding: 0em}
   .article {margin-left: auto;
     margin-right: auto;
-    width: 80%}
+    width: 95%}
   article p {margin: 5%}
+  p {margin-left: auto;
+  margin-right: auto;
+  width 95%}
   }
