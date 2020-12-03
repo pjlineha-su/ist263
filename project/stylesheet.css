@@ -102,5 +102,17 @@ footer {float: right; font-size: .5em;}
   .citymap {padding: 0em;}
   .citypic {padding: 0em;}
   button {margin-bottom: 15px;}
+  .citypic {
+    width: 100%; 
+    padding: 1em; 
+    float:left;}       
+  .citymap {
+    width: 100%; 
+    padding: 1em; 
+    float:left;
+    border-color: #221e22ff;
+  }
+  
+
   
   }
