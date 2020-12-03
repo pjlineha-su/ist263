@@ -85,7 +85,7 @@ button:hover{background:#A50104;}
     width: 80%;}
 footer {float: right; font-size: .8em;}
 
-@media only screen and (device-width: 600px){
+@media only screen and (max-device-width:600px){
   span {display: none;}
   nav a {padding: 7px; max-width:100%; display: block;}
   body {margin: auto; width: 80%;}
