@@ -18,26 +18,45 @@ nav a{font-size: 25pt;text-decoration: none; font-weight: bold;}
 nav a:hover {background-color: #A50104; color:#fafafaff; font-weight: bold;}
 article p {margin-left: 15%; margin-right: 15%;}
 article h2 {margin-left: 15%; margin-right: 15%;}
-body header {float: center}
-#tangermedia {display: flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
+
+/* index page */
+
+#tangermedia {display: flex; margin: auto; width: 95%;}
+#rabatmedia {display:flex; width: 95%; margin: auto}
+#casablancamedia {display:flex; width: 95%; margin: auto}
+#marrakechmedia {display:flex; margin:auto; width: 95%}
+.citypic {
+  width: 50%; 
+  padding: 1em; 
+  float:left;}       
+.citymap {
+  width: 50%; 
+  padding: 1em; 
+  float:left;
+  border-color: #221e22ff;
+}
+
 img {padding: 1em;}
-iframe {padding: 1em}
-nav {background-color:#19647eff; color:#fafafaff; padding: 1.4em;}
 a {padding: 1em;}
 a:visited {color:#fafafaff;}
 footer a:visited {color: #221e22ff;}
 footer a{padding:0em}
 .clear {clear: both;}
-#rabatmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
-#casablancamedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
-#marrakechmedia {display:flex; flex-wrap: wrap; margin-left: 10%; margin-right: 10%;}
+
+
+
 hr {color: #19647eff;}
-.banner {display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+.banner {
     padding: 0em;
+    max-width: 100%;
   }
+nav {display: block;
+    margin: auto;
+    max-width: 100%;
+    background-color:#19647eff; 
+    color:#fafafaff; 
+    padding: 1.4em;
+    }
   
 .invisible{visibility: hidden; padding: 1em;}
 #more {display: none;}
@@ -64,17 +83,20 @@ button:hover{background:#A50104;}
     margin-left: auto;
     margin-right: auto;
     width: 80%;}
-footer {float: right;}
+footer {float: right; font-size: .8em;}
 
 @media only screen and (max-width: 600px){
   span {display: none;}
   nav a {padding: 7px; max-width:100%; display: block;}
-  body {padding: 0em}
+  body {margin: auto; width: 80%;}
   .article {margin-left: auto;
     margin-right: auto;
-    width: 95%}
-  article p {margin: 5%}
+    width: 95%;
+    padding: 0em}
+  article p {margin: 5%;}
   p, h1, h2, h3 {margin-left: auto;
   margin-right: auto;
   width: 95%;}
+  .citymap {padding: 0em;}
+  .citypic {padding: 0em}
   }
