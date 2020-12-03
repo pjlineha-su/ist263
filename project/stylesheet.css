@@ -40,7 +40,7 @@ img {padding: 1em;}
 a {padding: 1em;}
 a:visited {color:#fafafa;}
 footer a:visited {color: #221e22;}
-footer a{padding:0em color:#221e22;}
+footer a{padding:0em; color: #221e22;}
 .clear {clear: both;}
 
 
@@ -83,7 +83,7 @@ button:hover{background:#A50104;}
     margin-left: auto;
     margin-right: auto;
     width: 80%;}
-footer {float: right; font-size: .5em;}
+footer {float: right; font-size: .5em; padding-bottom: 1em;}
 
 @media only screen and (max-width:600px){
   span {display: none;}
@@ -102,15 +102,4 @@ footer {float: right; font-size: .5em;}
   .citymap {padding: 0em;}
   .citypic {padding: 0em;}
   button {margin-bottom: 15px;}
-  .citypic {
-    width: 100%; 
-    padding: 1em; 
-    float:left;}       
-  .citymap {
-    width: 100%; 
-    padding: 1em; 
-    float:left;
-    border-color: #221e22;
-  }
-  
   }
