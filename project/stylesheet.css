@@ -21,7 +21,7 @@ article h2 {margin-left: 15%; margin-right: 15%;}
 
 /* index page */
 
-#tangermedia {display: flex; margin: auto; width: 95%;}
+#tangermedia {display: flex; flex-wrap: wrap; margin: auto; width: 95%;}
 #rabatmedia {display:flex; width: 95%; margin: auto}
 #casablancamedia {display:flex; width: 95%; margin: auto}
 #marrakechmedia {display:flex; margin:auto; width: 95%}
