@@ -86,7 +86,7 @@ button:hover{background:#A50104;}
 footer {float: right; font-size: .5em; padding-bottom: 1em;}
 
 @media only screen and (max-width:600px){
-  span {display: none;}
+  .line {display: none;}
   nav a {padding: 2px; max-width:100%; display: block;}
   nav {padding: .5em;}
   body {margin: auto; width: 95%;}
